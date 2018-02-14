@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5em 0;
+  padding-top: 1.5em;
 }
 
 .item-status-checkbox {
@@ -29,4 +29,12 @@
 .btn-delete-item {
   margin-left: .5em;
   color:;
+}
+
+.justify-content {
+  text-align: center;
+}
+
+.btn-delete-all-wrapper {
+  margin-top: 4em;
 }

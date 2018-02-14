@@ -24,6 +24,15 @@
     addItem(itemInput.value);
   });
 
+  // Store a reference to the button responsible for removing all shopping
+  // list elements from the shopping list
+  const deleteAllBtn = document.getElementById('deleteAllBtn');
+
+  // On each click, empty the list
+  deleteAllBtn.addEventListener('click', function (event) {
+    shoppingList.innerHTML = '';
+  });
+
   /**
    * Calls the appropriate compilation functions to create a new shopping list
    * element and all it's childern, then appends it to the shopping list
