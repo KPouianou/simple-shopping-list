@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-framework="javascript">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Shopping List App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="navbar-brand">My Shopping List</div>
+    </nav>
+
+    <main role="main" class="container">
+      <!-- New shopping list item form -->
+      <form id="newItemForm">
+        <input id="newItemInput" type="text" class="form-control form-control-lg" placeholder="Add a new item to shop...">
+        <input type="submit" hidden="true" />
+      </form>
+      <!-- Shopping list-->
+      <ul id="shoppingList" class="list-unstyled">
+      </ul>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

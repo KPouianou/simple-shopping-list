@@ -1,0 +1,17 @@
+{
+  "name": "simple-shopping-list",
+  "version": "1.0.0",
+  "description": "As basic todo-list style app to highlight basic DOM manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  padding-top: 80px;
+}
+
+.form-control {
+  max-width: 400px;
+}
+
+.form-control:disabled {
+  text-decoration: line-through;
+}
+
+.form-control.form-control-lg {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.shopping-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 0;
+}
+
+.item-status-checkbox {
+  margin-right: 1em;
+}
+
+.btn-delete-item {
+  margin-left: .5em;
+  color:;
+}
