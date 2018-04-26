@@ -122,6 +122,8 @@
       this.parentElement.remove();
     });
 
+    console.log('Some other message');
+
     return deleteItemButton;
   }
 }());
