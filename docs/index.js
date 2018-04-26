@@ -10,8 +10,6 @@
   // Store a reference to the form responsible for adding new items to the list
   const newItemForm = document.getElementById('newItemForm');
 
-  console.log('This is a message from Kostas');
-
   // Store a reference to the input that holds the text value
   // representing the new shopping list item
   const itemInput = document.getElementById('newItemInput');
@@ -123,8 +121,6 @@
     deleteItemButton.addEventListener('click', function () {
       this.parentElement.remove();
     });
-
-    console.log('Message from Kosmas');
 
     return deleteItemButton;
   }
