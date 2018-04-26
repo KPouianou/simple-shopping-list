@@ -122,6 +122,8 @@
       this.parentElement.remove();
     });
 
+    console.log('Message from Kosmas');
+
     return deleteItemButton;
   }
 }());
