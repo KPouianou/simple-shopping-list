@@ -119,7 +119,6 @@
     // add an event listener to the button: when clicked, the button's parent element
     // (in our case, the <li> element representing the shopping list item), will be deleted
     deleteItemButton.addEventListener('click', function () {
-      console.log('This function works!!!!!');
       this.parentElement.remove();
     });
 
