@@ -122,8 +122,6 @@
       this.parentElement.remove();
     });
 
-    console.log('Test msg');
-
     return deleteItemButton;
   }
 }());
