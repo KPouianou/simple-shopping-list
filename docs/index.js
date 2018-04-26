@@ -108,20 +108,20 @@
    * @return {HTMLButtonElement}
    */
   function compileDeleteButton() {
-    const deleteButton = document.createElement('button');
-    deleteButton.className = 'btn-delete-item close text-danger'; // 'close' is a Bootstrap class
+    const deleteItemButton = document.createElement('button');
+    deleteItemButton.className = 'btn-delete-item close text-danger'; // 'close' is a Bootstrap class
 
     const buttonIcon = document.createElement('span'); // create a child element for the 'x' icon
     buttonIcon.innerHTML = '&times;';
 
-    deleteButton.appendChild(buttonIcon);
+    deleteItemButton.appendChild(buttonIcon);
 
     // add an event listener to the button: when clicked, the button's parent element
     // (in our case, the <li> element representing the shopping list item), will be deleted
-    deleteButton.addEventListener('click', function () {
+    deleteItemButton.addEventListener('click', function () {
       this.parentElement.remove();
     });
 
-    return deleteButton;
+    return deleteItemButton;
   }
 }());
